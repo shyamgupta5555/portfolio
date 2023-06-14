@@ -2,13 +2,30 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+.img {
+  
+  
+    
+    border:2px solid #fff;
+    background: url(img/tiger.png) no-repeat;
+    -moz-box-shadow: inset 10px 10px 50px #fff;
+    -webkit-box-shadow: inset 10px 10px 50px #fff;
+    box-shadow: inset 20px 10px 50px #fff;
+  
+  
+}
+
+
 * {
   margin: 0;
   padding: 0;
+
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #A5E3DD, #0F4A44); ;
+ 
 }
 
 html {
